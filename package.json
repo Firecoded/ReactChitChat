@@ -1,25 +1,29 @@
 {
-  "name": "react_starter",
+  "name": "react_chitchat",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "Chat app using Firebase and React",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
     "bundle": "webpack --config webpack.prod.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott Bowler",
+  "author": "Jacob Taylor",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/Firecoded/ReactChitChat.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "firebase": "^5.4.2",
+    "materialize-css": "^0.100.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
