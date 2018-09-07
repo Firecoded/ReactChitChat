@@ -1,0 +1,9 @@
+.home-container {
+	display: flex;
+	height: calc(100vh - 125px);
+	align-items: flex-start;
+	justify-content: center;
+}
+.home-container > a {
+	
+}

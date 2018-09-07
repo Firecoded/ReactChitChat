@@ -30,14 +30,17 @@ body {
 }
 
 .rotate {
+    position: relative;
     animation: spin 10s linear infinite;
 }
 
 @keyframes spin {
     from {
         transform: rotate(0deg);
+        left: 0;
     }
     to {
         transform: rotate(360deg);
+        left: 90%;
     }
 }
