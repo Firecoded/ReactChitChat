@@ -6,7 +6,7 @@ export default props => (
 	<div>
 		<h1 className = 'center'>ReactChitChat</h1>
 		<div className ='home-container'>
-			<Link className='btn btn-large green' to='/chat'>Start Chat</Link>
+			<Link className='btn btn-large blue-grey darken-2 fade rainbow' to='/chat'>Start Chat</Link>
 		</div>
 	</div>
 )

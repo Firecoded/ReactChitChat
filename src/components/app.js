@@ -8,7 +8,7 @@ import Chat from './chat';
 
 
 const App = () => (
-    <div className = 'container'>
+    <div className = 'container blue-grey lighten-5'>
         <Route path = '/' exact component = {Home}/>
         <Route path = '/chat' component = {Chat}/>
     </div>
