@@ -1,0 +1,19 @@
+.chat-cont {
+	display: flex;
+	height: calc(100vh - 125px);
+	align-items: flex-start;
+	justify-content: center;
+}
+.flex-stuff{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.flex-stuff2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.home-btn{
+	display: block;
+}

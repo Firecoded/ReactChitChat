@@ -7,3 +7,29 @@
 .home-container > a {
 	
 }
+@keyframes fade{
+    0% {opacity: 1;}
+    50% {opacity: .6;}
+    100% {opacity: 1;}
+}
+
+.fade {
+	animation: 2s fade infinite;
+}
+.rainbow{
+	animation: 2s rainbow infinite;
+}
+
+@keyframes rainbow{
+    0% {color: #FC0006;}
+    10% {color: #FC0063;}
+    20% {color: #F400FF;}
+    30% {color: #AC00FF;}
+    40% {color: #1600FF;}
+    50% {color: #0F7FFF;}
+    60% {color: #21FFFC;}
+    70% {color: #27FF06;}
+    80% {color: #CCFF09;}
+    90% {color: #FD8D08;}
+    100% {color: #FC5407;}
+}
